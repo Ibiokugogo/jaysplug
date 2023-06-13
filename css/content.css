@@ -1,0 +1,148 @@
+.section1{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: -25px;
+
+}
+
+
+.rightside{
+  flex: 1;
+}
+
+@media (max-width: 750px) {
+ .section1 {
+  display: grid;
+  grid-template: 1fr;
+ } 
+}
+
+.rightcontent{
+margin-left: 170px;
+}
+
+.rightside h2{
+  font-family: sans-serif;
+  color: orangered;
+  font-size: 60px;
+  padding-bottom: 20px;
+  padding-top: 120px;
+}
+
+.rightside .par{
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: justify;
+  line-height: 25px;
+  
+}
+
+.btn {
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+  padding-right: 40px;
+  padding-left: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: orangered;
+  color: white;
+
+}
+
+.btn:hover {
+  background-color: white;
+  color: orangered;
+}
+
+
+.leftside{
+  flex: 1;
+  height: 500px;
+ 
+}
+
+.form{
+  background: rgb(10, 10, 10, 0.6)50%;rgb(10, 10, 10, 0.6)50%;
+  position: absolute;
+  width: 250px;
+  margin-top: 110px;
+  margin-left: 190px;
+  padding: 25px;
+  height: 380px;
+  border-radius: 17px;
+
+}
+
+.form h2{
+width: 220px;
+font-family: sans-serif;
+text-align: center;
+font-size: 22px;
+color: orangered;
+background-color: white;
+border-radius: 10px;
+margin: 2px;
+padding: 8px;
+}
+
+.form input{
+  width: 240px;
+  height: 35px;
+  background: transparent;
+  border-bottom: 1px solid orangered;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: white;
+  font-size: 15px;
+  letter-spacing: 1px;
+  margin-top: 50px;
+  font-family: sans-serif;
+
+}
+
+.form input:focus{
+  outline: none;
+}
+
+::placeholder{
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btnn{
+  width: 240px;
+  height: 40px;
+  background: orangered;
+  border: none;
+  margin-top: 30px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: white;
+  transition: 0.4s ease;
+}
+
+.btnn:hover{
+  background: white;
+  color: orangered;
+}
+
+.btnn a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btnn a:hover {
+  color: orangered;
+}
+
+.section2{
+  color: white;
+  padding-top: 90px;
+  text-align: center;
+  
+}
